@@ -156,7 +156,7 @@ Resources:
                   - "kms:Describe"
                 Resource: !Ref KmsKeyArn
       ManagedPolicyArns:
-        - arn:aws:iam::aws:policy/serSpeciale-role/AWSBatchSerSpecialeRole
+        - arn:aws:iam::aws:policy/service-role/AWSBatchServiceRole
 
   SpecialInstanceRole:
     Type: AWS::IAM::Role
