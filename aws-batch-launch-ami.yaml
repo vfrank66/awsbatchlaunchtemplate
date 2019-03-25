@@ -69,7 +69,7 @@ Resources:
             mkdir /data
             echo " /dev/xvdb1       /data  ext4    defaults        0       2" >> /etc/fstab
             mount -a
-            serSpeciale docker restart 
+            service docker restart 
 
             --==MYBOUNDARY==
 
