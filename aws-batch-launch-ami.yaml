@@ -85,7 +85,7 @@ Resources:
         Privileged: false
         ReadonlyRootFilesystem: false
         Vcpus: 1
-        Image: 352735500564.dkr.ecr.us-east-1.amazonaws.com/Specialmounttest:latest
+        Image: dkr.ecr.us-east-1.amazonaws.com/Specialmounttest:latest
         MountPoints:
           - ContainerPath: "/data"
             ReadOnly: false
